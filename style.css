@@ -1,0 +1,48 @@
+.parent {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 5px 10px 18px #888888;
+  background-color:black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#display {
+  text-align: right;
+  height: 100px;
+  line-height: 120px;
+  padding: 10px 8px;
+  font-size: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+#equal {
+  background-color: royalblue;
+  color: white;
+}
+
+.button:hover {
+  background-color:cadetblue;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button {
+ 
+  text-align: center;
+  cursor: pointer;
+  line-height: 80px;
+  font-size: 1.5rem;
+  background-color: #eee;
+  border-radius: 5px;
+}
+ 
+ 
